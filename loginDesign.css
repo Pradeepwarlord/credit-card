@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Apr, 2024, 4:08:39 PM
+    Author     : maria
+*/
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #9e20a0,#5a3375);
+    -fx-border-color: #000;
+    -fx-border-width: .4px 0px .4px .4px;
+}
+.right-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #fb3d64;
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom, #9e20a0,#5a3375);
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Verdana";
+}
+
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom,#277bd0,#14405d);
+}
